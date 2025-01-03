@@ -11,6 +11,7 @@
   html {
     font-family: 'Helvetica', sans-serif;
     background: #002244;
+    line-height: 1.4;
   }
   
   header {
@@ -64,9 +65,24 @@
     display: block;
     list-style-type: disc;
   }
-  
+
   p {
+    font-size: 1.1rem;  
+  }
+  
+  p,
+  li {
     color: linen;
+  }
+
+  li {
+    margin-left: 50px;
+  }
+
+  code,
+  .code-blue {
+    color: blue;
+    font-size: 1rem;
   }
   
   @media only screen and (max-width: 720px) {
